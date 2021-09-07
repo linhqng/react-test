@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "esnext",
+    "module": "commonJS",
+    "jsx": "preserve",
+
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules", ".git"]
+}

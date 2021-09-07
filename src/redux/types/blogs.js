@@ -1,0 +1,9 @@
+export const GET_BLOGS_LIST = 'GET_BLOGS_LIST'
+
+export const GET_TOTAL_BLOGS = 'GET_TOTAL_BLOGS'
+
+export const GET_BLOG_DETAIL = 'GET_BLOG_DETAIL'
+
+export const RESET_BLOGS = 'RESET_BLOGS'
+
+export const BLOGS_REQUESTING = 'BLOGS_REQUESTING'
