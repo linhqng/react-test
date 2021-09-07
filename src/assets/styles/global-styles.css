@@ -87,7 +87,11 @@ input::-ms-reveal {
 }
 
 .blogs {
-  min-height: 600px;
+  min-height: 520px;
+}
+
+.blogs-list {
+  width: unset;
 }
 
 .blog-item {

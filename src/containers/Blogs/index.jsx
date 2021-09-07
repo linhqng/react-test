@@ -117,7 +117,7 @@ const Blogs = () => {
         </div>
       </div>
       <div className="row blogs mt-5">
-        <ul className="list-unstyled">
+        <ul className="list-unstyled blogs-list">
           {blogsList?.length > 0 ? (
             blogsList.map?.((blog, index) => (
               <BlogItem blog={blog} key={index} />
