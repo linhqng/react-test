@@ -9,7 +9,7 @@ import {
 } from './utils/index'
 
 const AXIOS_CONFIG = {
-  baseURL: 'https://5f55a98f39221c00167fb11a.mockapi.io',
+  baseURL: process.env.API_END_POINT,
   timeout: 120000,
   headers: {
     'Content-Type': 'application/json',
